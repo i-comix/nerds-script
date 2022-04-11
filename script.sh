@@ -25,10 +25,10 @@ echo "Installing Downloader..."
 sleep 1.5
         mkdir -p ~/.config/yt-dlp
 sleep 1.5
-        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/config?token=GHSAT0AAAAAABS4TBIQLPDBY3IQ5LAAKENSYSUKWMA -P /data/data/com.termux/files/home/.config/yt-dlp
+        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/config -P /data/data/com.termux/files/home/.config/yt-dlp
         mkdir ~/bin
 sleep 1.5
-        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/termux-url-opener?token=GHSAT0AAAAAABS4TBIRVCP5CLKDIFY45RKSYSUKXUA -P /data/data/com.termux/files/home/bin
+        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/termux-url-opener -P /data/data/com.termux/files/home/bin
         clear
 sleep 1.5
 
