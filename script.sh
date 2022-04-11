@@ -1,3 +1,4 @@
+#!/system/bin/sh
 
 apt update -y
 clear
