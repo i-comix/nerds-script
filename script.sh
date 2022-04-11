@@ -20,7 +20,7 @@ echo "Installing Downloader..."
         pip install -U yt-dlp
         clear
 
-"setting up config..."
+echo "setting up config..."
         mkdir /data/data/com.termux/files/home/storage/shared/youtube
 sleep 1.5
         mkdir -p ~/.config/yt-dlp
