@@ -1,2 +1,2 @@
 
---no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title%)s.%(ext)s -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080][ext=mp4] / bv*+ba/b"
+--no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/%(title%)s.%(ext)s -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]"
