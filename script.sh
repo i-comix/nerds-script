@@ -23,6 +23,10 @@ echo "Installing Downloader..."
 echo "setting up config..."
         mkdir -p /data/data/com.termux/files/home/storage/shared/youtube
 sleep 1.5
+        mkdir -p ~/.config/yt-dlp
+sleep 1.5
+        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/config -P /data/data/com.termux/files/home/.config/yt-dlp
+sleep 1.5
         mkdir -p ~/bin
 sleep 1.5
         wget https://raw.githubusercontent.com/i-comix/nerds-script/main/termux-url-opener -P /data/data/com.termux/files/home/bin
