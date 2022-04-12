@@ -1,2 +1,0 @@
-
---no-mtime -o /data/data/com.termux/files/home/storage/shared/Youtube/ -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]"
