@@ -5,5 +5,5 @@ read answer
 if [ "$answer" == "a" ]; then
     yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-thumbnail $1
 elif [ "$answer" == "v" ]; then
-    yt-dlp $1
+    yt-dlp -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]" $1
 fi
