@@ -25,10 +25,10 @@ echo "setting up config..."
 sleep 1.5
         mkdir -p ~/.config/yt-dlp
 sleep 1.5
-        wget -O https://raw.githubusercontent.com/i-comix/nerds-script/main/config -P /data/data/com.termux/files/home/.config/yt-dlp
-        mkdir ~/bin
+        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/config -P /data/data/com.termux/files/home/.config/yt-dlp
+        mkdir -p ~/bin
 sleep 1.5
-        wget -O https://raw.githubusercontent.com/i-comix/nerds-script/main/termux-url-opener -P /data/data/com.termux/files/home/bin
+        wget https://raw.githubusercontent.com/i-comix/nerds-script/main/termux-url-opener -P /data/data/com.termux/files/home/bin
         clear
 sleep 1.5
 
